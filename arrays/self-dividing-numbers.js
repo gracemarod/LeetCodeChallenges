@@ -19,7 +19,6 @@ let selfDividingNumbers = function(left, right) {
     
     //for loop would test if each number is self-dvidding starting in left variable and ending in right variable
 
-
     for (var num = left; num <= right; num++){
 
          d = num;
@@ -32,6 +31,9 @@ let selfDividingNumbers = function(left, right) {
          }
         if(d === 0 && num%r===0){res.push(num);}
     }
+console.log(res);
 return res;                                                 
 
 };
+
+selfDividingNumbers(1,22); //[1,2,3,4,5,6,7,8,9,11,12,15,22]
