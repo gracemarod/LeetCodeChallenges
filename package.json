@@ -1,0 +1,23 @@
+{
+  "name": "leetcodechallenges",
+  "version": "1.0.0",
+  "description": "<h1>LeetCode Coding Challenges</h1>",
+  "main": "large-responses.js",
+  "dependencies": {
+    "eslint": "^7.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracemarod/LeetCodeChallenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracemarod/LeetCodeChallenges/issues"
+  },
+  "homepage": "https://github.com/gracemarod/LeetCodeChallenges#readme"
+}
